@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px grey;
+}
+/* fdsglksjdfrñlgk */
+header {
+    background-color: #0092BE;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-color: #0092BE;
+    color: rgb(8, 4, 56);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+}
+.azulo {
+    color: darkblue;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.encabezados{
+    text-align: left;
+}
+.etiqueta{
+    color: red;
+    font-size: 32px;
+}
+
+
+#tablas{
+margin: 0 auto;
+}
+#tablas table{
+    width: 60%;
+    margin: 0 auto;
+}
+.sisi{
+    background-color: #ef8633;
+}
+.fol{
+    background-color: #f0f0cc;
+}
+.ende{
+    background-color: #8081bb;
+}
+.prog{
+    background-color: #a0fcfe;
+}
+.ing{
+    background-color: #a1fb8f;
+}
+.lmsg{
+    background-color: #55b666;
+}
+.bdd{
+    background-color: #74a897;
+}
+.resto{
+    background-color: #f0f0f0;
+}
+.letras{
+    background-color: #3f8485;
+}
+
+#horario{
+ text-align: center;
+ width: 85%;
+ height: 90%;
+ font-weight: 600;
+ 
+}
+#horario td{
+    color: #000000;
+}
+#horario th{
+ color: #367e7f;
+ background-color: #f0f0f0 ;
+}
+
+#listas{
+    margin: 0 auto;
+}
+.custom ol{
+list-style-type:lower-latin;
+}
+.custom ol ol{
+    list-style-type:lower-roman;
+    }
+.custom ul {
+    list-style-image: url(../img/corazon.png);
+}
+.custom ul ul{
+    list-style-image: none;
+    list-style-type: circle;
+}
+
