@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/PWeb.png">
     <title>Document</title>
 </head>
 <body>
     <div id="container">
         <header>
-            <img src="img/header.jpg" alt="html5">
+            <img src="img/header.png" alt="html5">
         </header>
         <div id="principal">
             <nav>
@@ -28,69 +29,83 @@
             </nav>
             <div id="contenido">
                 <div id="tablas">
-                    <H1 class="azulo">Tablas</H1>
-                    <p>Las estiquetas más importantes para diseñar una tabla son <span class="etiqueta">table</span>, <span class="etiqueta">tr</span>, <span class="etiqueta">th</span> y <span class="etiqueta">td</span></p>
+
+                    <H1 class="titulo">Tablas</H1>
+                    <p>Las estiquetas más importantes para diseñar una tabla son <span class="resaltar">table</span>, <span class="resaltar">tr</span>, <span class="resaltar">th</span> y <span class="resaltar">td</span></p>
                     <h2>Tabla default</h2>
-                    <table border="1">
+
+                    <table>
                         <thead>
                             <tr>
-                                <th>Archivo</th>
-                                <td>Abrir</td>
-                                <td>Cerrrar</td>
+                                <th class="tablasTH">Archivo</th>
+                                <td class="tablasTD">Abrir</td>
+                                <td class="tablasTD">Cerrrar</td>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th >Editar</th>
+                                <th class="tablasTH">Editar</th>
+                                <td class="tablasTD">Copiar</td>
+                                <td class="tablasTD">Pegar</td>
+                            </tr>
+                            <tr>
+                                <th class="tablasTH">Ayuda</th>
+                                <td class="tablasTD">A cerca de</td>
+                                <td class="tablasTD">FAQ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>Tabla celdas combinadas</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="tablasTH">Archivo</th>
+                                <td class="tablasTD">Abrir</td>
+                                <td class="tablasTD">Cerrrar</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="tablasTH" rowspan="2">Editar</th>
+                                <td class="tablasTD"colspan="2">Copiar</td>
+                                
+                            </tr>
+                            <tr>
+                                
+                                <td class="tablasTD">A cerca de</td>
+                                <td class="tablasTD">FAQ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>Tabla par e impar</h2>
+                    <table  id="tcebra">
+                        <thead>
+                            <tr>
+                                <th>Archivo</th>
+                                <th>Abrir</th>
+                                <th>Cerrar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Editar</td>
                                 <td>Copiar</td>
                                 <td>Pegar</td>
                             </tr>
                             <tr>
-                                <th>Ayuda</th>
+                                <td>Ayuda</td>
                                 <td>A cerca de</td>
                                 <td>FAQ</td>
                             </tr>
-                        </tbody>
-                    </table>
-                    <h2>Tabla celdas conninadas</h2>
-                    <table border="1">
-                        <thead>
                             <tr>
-                                <th>Archivo</th>
-                                <td>Abrir</td>
-                                <td>Cerrrar</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th rowspan="2">Editar</th>
-                                <td colspan="2">Copiar</td>
-                                
+                                <td>Editar</td>
+                                <td>Copiar</td>
+                                <td>Pegar</td>
                             </tr>
                             <tr>
-                                
-                                <td>A cerca de</td>
-                                <td>FAQ</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h2>Tabla par e impar</h2>
-                    <table border="1">
-                        <thead>
-                            <tr>
-                                <th>Archivo</th>
-                                <td>Abrir</td>
-                                <td>Cerrrar</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th rowspan="2">Editar</th>
-                                <td colspan="2">Copiar</td>
-                                
-                            </tr>
-                            <tr>
-                                
+                                <td>Ayuda</td>
                                 <td>A cerca de</td>
                                 <td>FAQ</td>
                             </tr>
